@@ -1,5 +1,33 @@
-body,div,html{ margin:0px;padding:0px}
+i {
+  font-family: fontello;
+}
 
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+body, div, html {
+  margin: 0px;
+  padding: 0px;
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.section {
+  padding: 60px 0;
+}
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;

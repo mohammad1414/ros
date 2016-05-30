@@ -4,3 +4,46 @@
 	width:100%;
 	margin:0px;
 }
+
+.wrapper {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*TOP HEADER*/
+
+.header_phone-number  {
+  color: #a3a3a3;
+}
+
+.header_social {
+  display: inline-block;
+}
+
+.header__topbar {
+  background-color: #000;
+  height: 30px;
+  width: 100%;
+  margin: 0px;
+}
+
+
+/*NAVIGATION HEADER*/
+
+.navs {
+  padding: 20px 0;
+
+  li {
+  	padding-left: 40px;
+  }
+
+  a {
+  	color: $font-color;
+  }
+}
