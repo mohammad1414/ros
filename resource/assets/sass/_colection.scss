@@ -1,0 +1,22 @@
+.colection-section {
+	a {
+		display: block;
+	}
+
+	.colection-main,
+	.colection-other {
+		width: 49%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.colection-middle {
+		max-height: 26%;
+		overflow: hidden;
+	}
+
+	.colection-small {
+		width: 49%;
+		display: inline-block;
+	}
+}
