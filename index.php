@@ -15,6 +15,9 @@
 
 		<?php include('blocks/colection_section.php');?>
 
+
+		<?php include('blocks/categories_home_section.php');?>
+
 		<footer>
 			<?php include('blocks/footer.php');?>
 		</footer>

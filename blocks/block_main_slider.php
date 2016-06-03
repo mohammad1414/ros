@@ -3,7 +3,7 @@
 
 
 <div id="main_slider" class=" owl-carousel  owl-theme">
-	<?php for($i=1 ; $i < 6 ; $i++){?>
+	<?php for($i=1 ; $i < 4 ; $i++){?>
 	  		<div class="item"><img src="img/slider/<?=$i?>.jpg" alt="rosan" /> </div>
 	<?php }?>
 </div>
@@ -20,9 +20,8 @@
 			center:true,
 			rtl:true,
 		    loop:true,
-		    margin:10,
-		    nav:true,
-
+		    margin:0,
+		    nav:false,
 	  });
 	});
 
