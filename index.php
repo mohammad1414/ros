@@ -7,7 +7,12 @@
 
 	</head>
 	<body>
-		<?php include('blocks/block_header.php');?>
+		<div id="header_block" class="header_block" >
+			<?php include('blocks/block_header.php');?>
+		</div>
+
+		
+
 		<?php include('blocks/colection_section.php');?>
 
 		<footer>

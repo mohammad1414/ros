@@ -13,9 +13,10 @@
 	</div>
 </div>
 
+
 <div class="header__navigation">
 	<div class="wrapper">
-        <div class="rosan_logo col-md-2"><a href="#"><img src="public/assets/img/rosanlogo.png" alt="#"></a></div>
+        <div class="rosan_logo col-md-2 pull-left"><a href="#"><img src="public/assets/img/rosanlogo.png" alt="#"></a></div>
 		<ul class="navs	 nav-white col-md-10">
             <li class=" active"><a href="#" class="search"><i class="icon icon-search"></i></a></li>
             <li class=""><a href="http://rosansocks.com">صفحه اصلی</a></li>
@@ -27,6 +28,9 @@
 	</div>
 </div>
 
-<!-- <div class="rosan_slider">
-	<img src="img/slider-img.png" alt="#">
-</div> -->
+
+<div class="slider_section " >
+<?php
+	include('blocks/block_main_slider.php');
+?>
+</div>
