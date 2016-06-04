@@ -69,10 +69,6 @@
 
 			  $(function(){
 				  $('#main_slider').owlCarousel({
-					  	navigation : true,
-						pagination: true,
-						singleItem : true,
-						autoPlay : true,
 						transitionStyle : "fadeUp",
 						animateOut: 'slideOutDown',
 						animateIn: 'flipInX',
@@ -83,8 +79,8 @@
 						center:true,
 						rtl:true,
 					    loop:true,
-					    margin:0,
-					    nav:false,
+					    nav:true,
+					    dots: true
 				  });
 				});
 
