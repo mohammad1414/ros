@@ -1,0 +1,63 @@
+/* line 535, ../sass/theme.scss */
+.owl-carousel .item {
+  position: relative;
+}
+/* line 537, ../sass/theme.scss */
+.owl-carousel .item > img {
+  display: inline-block;
+}
+/* line 540, ../sass/theme.scss */
+.owl-carousel .item .item-caption {
+  bottom: 0;
+  height: 80%;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 80%;
+}
+/* line 548, ../sass/theme.scss */
+.owl-carousel .item .item-caption .item-cat a {
+  color: white;
+}
+/* line 550, ../sass/theme.scss */
+.owl-carousel .item .item-caption .item-cat a:hover, .owl-carousel .item .item-caption .item-cat a:focus {
+  color: #1abc9c;
+}
+/* line 555, ../sass/theme.scss */
+.owl-carousel .item .item-caption-inner {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+/* line 560, ../sass/theme.scss */
+.owl-carousel .item .item-caption-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 566, ../sass/theme.scss */
+.main-demo {
+  /* end owl-controls*/
+}
+/* line 567, ../sass/theme.scss */
+.main-demo .item {
+  text-align: center;
+}
+/* line 570, ../sass/theme.scss */
+.main-demo .item-caption {
+  top: 0;
+}
+/* line 573, ../sass/theme.scss */
+.main-demo .owl-controls {
+  margin-top: -25px;
+  top: 50%;
+}
+/* line 577, ../sass/theme.scss */
+.main-demo .owl-controls .owl-buttons .owl-prev {
+  float: left;
+}
+/* line 580, ../sass/theme.scss */
+.main-demo .owl-controls .owl-buttons .owl-next {
+  float: right;
+}

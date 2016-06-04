@@ -31,6 +31,6 @@
 
 <div class="slider_section " >
 <?php
-	include('blocks/block_main_slider.php');
+	include('blocks/block_main_slider2.php');
 ?>
 </div>
