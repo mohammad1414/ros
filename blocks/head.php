@@ -8,3 +8,4 @@
 
 
 <link rel="stylesheet" href="public/assets/css/src/app.css">
+<meta charset="utf-8">
