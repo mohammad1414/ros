@@ -1,0 +1,13 @@
+.about_section {
+	background-image: url(../../../../img/about-bg.jpg);
+	height: 400px;
+	background-position-y: 510px;
+	position: relative;
+
+	.content {
+		max-width: 40%;
+		position: absolute;
+		top: 18%;
+		right: 14%;
+	}
+}
